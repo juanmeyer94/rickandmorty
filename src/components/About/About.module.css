@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    max-width: 700px;
+  }
+  
+  .text:last-child {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .text {
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+  

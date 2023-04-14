@@ -1,0 +1,40 @@
+select {
+    background-color: #10ee5a;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    border: 2px solid #44c7f4;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 20px;
+  }
+  
+  select:focus {
+    border-color: #ff5733;
+    box-shadow: 0 0 10px #ff5733;
+  }
+  
+  option {
+    background-color: #44c7f4;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  option:hover {
+    background-color: black;
+    color:#44c7f4;
+  }
+  
+  select:hover {
+    animation:rotate-center 0.4s
+  }
+  
+  @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+  
+ 
